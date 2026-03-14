@@ -34,30 +34,6 @@ print(add_numbers(1, 2, 3, 4))
 print_info(name="Ali", age=21, city="Tashkent")
 ```
 
-## 🚀 Qanday ishga tushiriladi
-
-1. Repositoryni klon qiling:
-
-```
-git clone https://github.com/username/repository-name.git
-```
-
-2. Papkaga kiring:
-
-```
-cd repository-name
-```
-
-3. Python faylini ishga tushiring:
-
-```
-python args_example.py
-```
-
-## 🛠 Talablar
-
-* Python 3.x
-
 ## 📚 Foydali mavzular
 
 * `*args` – o‘zgaruvchan positional argumentlar
@@ -65,4 +41,4 @@ python args_example.py
 
 ## 👨‍💻 Muallif
 
-Python o‘rganish jarayonida yozilgan amaliy misollar.
+[realljavohir](https://github.com/realljavohir)
