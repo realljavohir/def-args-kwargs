@@ -11,18 +11,21 @@ Ushbu repository Python dasturlash tilida yozilgan funksiyalar orqali `*args` va
 ## 🧠 Misol
 
 ```python
-def add_numbers(*args):
-    total = 0
-    for num in args:
-        total += num
-    return total
+# *args
+def args(son, *args):
+    print(f"Son -> ning qiymati: {son}")
+    print(f"ARGS -> ning qiymati: {args}")
 
-def print_info(**kwargs):
-    for key, value in kwargs.items():
-        print(f"{key}: {value}")
+x, x1, x2, x3, x4, x5 = map(int, input("Sonlarni kiriting: ").split())
+args(x, x2, x3, x4, x5)
 
-print(add_numbers(1, 2, 3, 4))
-print_info(name="Ali", age=21, city="Tashkent")
+# **kwargs
+def args(son, **kwargs):
+    print(f"Son -> ning qiymati: {son}")
+    print(f"KWARGS -> ning qiymati: {kwargs}")
+
+x, x1, x2, x3, x4, x5 = map(int, input("Sonlarni kiriting: ").split())
+args(x, bir=x2, ikki=x3, uch=x4, tort=x5)
 ```
 
 ## 📚 Foydali mavzular
