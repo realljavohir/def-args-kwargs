@@ -8,15 +8,6 @@ Ushbu repository Python dasturlash tilida yozilgan funksiyalar orqali `*args` va
 * `**kwargs` yordamida kalit-so‘z (keyword) argumentlar bilan ishlash
 * Moslashuvchan va qayta foydalanish mumkin bo‘lgan funksiyalar yozishni o‘rganish
 
-## 📂 Loyihaning tuzilishi
-
-```
-.
-├── args_example.py
-├── kwargs_example.py
-└── README.md
-```
-
 ## 🧠 Misol
 
 ```python
